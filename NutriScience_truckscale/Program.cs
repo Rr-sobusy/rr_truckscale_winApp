@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using NutriScience_truckscale.view;
 
 namespace NutriScience_truckscale
 {
@@ -16,7 +17,7 @@ namespace NutriScience_truckscale
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Mainwindow());
         }
     }
 }

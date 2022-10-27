@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,11 +7,13 @@ using System.Windows.Forms;
 
 namespace NutriScience_truckscale
 {
-    public partial class Form1 : Form
+    public static class switchPanel
     {
-        public Form1()
+        public static void dispuc(Control cont, Panel pnl)
         {
-            InitializeComponent();
+            pnl.Controls.Clear();
+            cont.BringToFront();
+            pnl.Controls.Add(cont);
         }
     }
 }
