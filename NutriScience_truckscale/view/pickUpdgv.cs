@@ -57,7 +57,7 @@ namespace NutriScience_truckscale.view
             {
                 if (guna2DataGridView1.SelectedCells[0].Value == null)
                 {
-                    MessageBox.Show("Please select the vehicle to move out", "Title", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Please select the vehicle to move out", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 else
                 {

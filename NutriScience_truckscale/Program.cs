@@ -17,7 +17,7 @@ namespace NutriScience_truckscale
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Mainwindow());
+            Application.Run(new Form1());
         }
     }
 }

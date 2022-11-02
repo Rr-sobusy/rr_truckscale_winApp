@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutriScience_truckscale", "NutriScience_truckscale\NutriScience_truckscale.csproj", "{8D37F4DB-33F3-48A8-91DD-A0F0E80F72F0}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Set-up", "Set-up\Set-up.vdproj", "{FFA7B299-03FA-4B7E-9F80-F80820102E34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{8D37F4DB-33F3-48A8-91DD-A0F0E80F72F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D37F4DB-33F3-48A8-91DD-A0F0E80F72F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D37F4DB-33F3-48A8-91DD-A0F0E80F72F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFA7B299-03FA-4B7E-9F80-F80820102E34}.Debug|Any CPU.ActiveCfg = Debug
+		{FFA7B299-03FA-4B7E-9F80-F80820102E34}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

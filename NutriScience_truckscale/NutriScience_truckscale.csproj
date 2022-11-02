@@ -257,6 +257,12 @@
     <Compile Include="model\receivingReportRecords.cs" />
     <Compile Include="model\weighingrecords.cs" />
     <Compile Include="switchPanel.cs" />
+    <Compile Include="view\addItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\addItems.Designer.cs">
+      <DependentUpon>addItems.cs</DependentUpon>
+    </Compile>
     <Compile Include="view\addNew.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -363,6 +369,9 @@
       <DependentUpon>weighOutForm.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="view\addItems.resx">
+      <DependentUpon>addItems.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="view\addNew.resx">
       <DependentUpon>addNew.cs</DependentUpon>
     </EmbeddedResource>

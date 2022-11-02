@@ -28,28 +28,15 @@ namespace NutriScience_truckscale
 
         private async void guna2Button1_Click(object sender, EventArgs e)
         {
-            bunifuLoader1.Show();
-            var result = await $"{API._api}/api/authenticateuser"
-          .PostJsonAsync(new
-          {
-              userName = bunifuTextBox1.Text,
-              passWord = bunifuTextBox2.Text
-             
-          }).Result.GetStringAsync();
-
-           if(result == "User authenticated")
+            if(bunifuTextBox1.Text == "nfic1" && bunifuTextBox2.Text == "nfic1")
             {
-                bunifuLoader1.Hide();
                 Mainwindow form = new Mainwindow();
                 form.Show();
                 this.Hide();
-                
-               
             }
             else
             {
-                MessageBox.Show("Log-in Failed", "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                bunifuLoader1.Hide();
+                MessageBox.Show("Unauthorized User!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             
         }
@@ -66,7 +53,7 @@ namespace NutriScience_truckscale
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            bunifuLoader1.Hide();
+            
         }
     }
 }
